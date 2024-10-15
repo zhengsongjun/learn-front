@@ -1,0 +1,36 @@
+{
+  "name": "electron-package",
+  "private": true,
+  "version": "0.0.0",
+  "main": "dist-electron/main.js",
+  "license": "MIT",
+  "author": "qian <1513296349@qq.com>",
+  "description": "this is description",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "lint": "eslint .",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "electorn": "^0.0.1-security",
+    "electron": "^32.1.2",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "vite-plugin-electron": "^0.28.8"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.9.0",
+    "@types/react": "^18.3.3",
+    "@types/react-dom": "^18.3.0",
+    "@vitejs/plugin-react": "^4.3.1",
+    "eslint": "^9.9.0",
+    "eslint-plugin-react-hooks": "^5.1.0-rc.0",
+    "eslint-plugin-react-refresh": "^0.4.9",
+    "globals": "^15.9.0",
+    "typescript": "^5.5.3",
+    "typescript-eslint": "^8.0.1",
+    "vite": "^5.4.1",
+    "prettier": "3.3.3"
+  }
+}
